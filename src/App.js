@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import About from './pages/About';
 import JoinUs from './pages/JoinUs';
 import Gallery from './pages/Gallery';
+import Donate from './pages/Donate';
 import Layout from './components/Layout';
 
 
@@ -21,6 +22,7 @@ function App() {
           <Route path="/AboutUs" element={<About />} />
           <Route path="/JoinUs" element={<JoinUs />} />
           <Route path="/Gallery" element={<Gallery />} />
+          <Route path="/Donate" element={<Donate />} />
         </Routes>
       </Layout>
     </BrowserRouter>
