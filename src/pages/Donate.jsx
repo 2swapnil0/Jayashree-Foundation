@@ -228,7 +228,7 @@ const Donate = () => {
                               value={customAmount}
                               onChange={handleCustomAmountChange}
                               placeholder="Enter amount"
-                              className="w-full pl-10 pr-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-royal-500 focus:border-transparent"
+                              className="w-full pl-10 pr-4 py-3 border-2 border-gray-200 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-royal-500 focus:border-transparent"
                               min="1"
                             />
                           </div>
@@ -248,7 +248,7 @@ const Donate = () => {
                             name="name"
                             value={donorInfo.name}
                             onChange={handleDonorInfoChange}
-                            className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-royal-500 focus:border-transparent"
+                            className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-royal-500 focus:border-transparent"
                             required
                           />
                         </div>
@@ -260,7 +260,7 @@ const Donate = () => {
                             name="email"
                             value={donorInfo.email}
                             onChange={handleDonorInfoChange}
-                            className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-royal-500 focus:border-transparent"
+                            className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-royal-500 focus:border-transparent"
                             required
                           />
                         </div>
@@ -272,7 +272,7 @@ const Donate = () => {
                             name="phone"
                             value={donorInfo.phone}
                             onChange={handleDonorInfoChange}
-                            className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-royal-500 focus:border-transparent"
+                            className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-royal-500 focus:border-transparent"
                           />
                         </div>
                         <div>
@@ -283,7 +283,7 @@ const Donate = () => {
                             name="address"
                             value={donorInfo.address}
                             onChange={handleDonorInfoChange}
-                            className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-royal-500 focus:border-transparent"
+                            className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-royal-500 focus:border-transparent"
                           />
                         </div>
                       </div>
@@ -295,7 +295,7 @@ const Donate = () => {
                           value={donorInfo.message}
                           onChange={handleDonorInfoChange}
                           rows="3"
-                          className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-royal-500 focus:border-transparent"
+                          className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg bg-white focus:outline-none focus:ring-2 focus:ring-royal-500 focus:border-transparent"
                           placeholder="Share why you're donating..."
                         ></textarea>
                       </div>
