@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImage from '../Images/Home/HeroCarousel/Home2.jpg';
+import Members from "../components/About/Members";
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
           <h1 className="text-5xl font-bold text-center text-gray-800 mb-12">About Us</h1>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <img src={AboutImage} alt="About Us" className="rounded-lg shadow-lg" />
+              <img src="https://picsum.photos/seed/about/800/600" alt="About Us" className="rounded-lg shadow-lg" />
             </div>
             <div>
               <p className="text-gray-600 text-lg leading-relaxed">
@@ -42,7 +42,7 @@ const About = () => {
               </p>
             </div>
             <div>
-              <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="Mission" className="rounded-lg shadow-lg" />
+              <img src="https://picsum.photos/seed/mission/800/600" alt="Mission" className="rounded-lg shadow-lg" />
             </div>
           </div>
         </div>
@@ -51,7 +51,7 @@ const About = () => {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
-              <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/hero/phone-mockup.png" alt="Vision" className="rounded-lg shadow-lg" />
+              <img src="https://picsum.photos/seed/vision/800/600" alt="Vision" className="rounded-lg shadow-lg" />
             </div>
             <div>
               <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Vision</h2>
@@ -65,6 +65,9 @@ const About = () => {
           </div>
         </div>
       </section>
+      <div id="members">
+        <Members />
+      </div>
     </div>
   );
 };
